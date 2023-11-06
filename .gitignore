@@ -1,0 +1,53 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python bytecode files
+__pycache__
+
+# Ignore logs and temporary files
+*.log
+*.log.*
+*.tmp
+
+# Ignore compiled files
+*.pyc
+*.pyo
+
+# Ignore virtual environment folders
+venv/
+env/
+.virtualenv/
+env/
+.venv/
+.venv3.7/
+
+# Ignore IDE specific folders
+.idea/
+.vscode/
+
+# Ignore the "output" folder
+output/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore package-lock.json for Node.js
+package-lock.json
+
+# Ignore the "node_modules" folder for Node.js
+node_modules/
+
+# Ignore the "dist" or "build" folder for build outputs
+dist/
+build/
+
+# Ignore your local configuration files
+config.ini
+
+# Ignore any sensitive or private information (such as API keys) stored in a file
+secrets.txt
+
+# Ignore compiled binaries or executables
+*.exe
+*.out
