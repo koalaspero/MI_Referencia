@@ -51,3 +51,7 @@ secrets.txt
 # Ignore compiled binaries or executables
 *.exe
 *.out
+
+#Images
+data/*
+output/*
